@@ -12,6 +12,8 @@
     "webpack-cli": "^4.4.0"
   },
   "dependencies": {
+    "buckets-js": "^1.98.2",
+    "date-fns": "^2.16.1",
     "webpack": "^5.19.0"
   }
 }
