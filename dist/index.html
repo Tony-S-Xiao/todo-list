@@ -4,9 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    
+    <div id="content">Tasks
+        <form id="task-input">
+            Name of task: <input type="text" name="title"><br>
+            Description: <input type="text" name="description"><br>
+            Start Date: <input type="date" name="start-date"><br>
+            Due Date: <input type="date" name="due-date"><br>
+            Priority: <select type="date" name="due-date">
+                <option value="0">Highest</option>
+                <option value="1">High</option>
+                <option value="2">Normal</option>
+                <option value="3">Low</option>
+                <option value="4">Lowest</option>
+                </select><br>
+            <button>Submit</button>
+        </form>
+    </div>
 <script src="main.js"></script>
 </body>
 </html>
