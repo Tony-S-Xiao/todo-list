@@ -7,21 +7,30 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
+    <header class="header">wow</header>
     <div id="content">Tasks
         <form id="task-input">
-            Name of task: <input type="text" name="title"><br>
-            Description: <input type="text" name="description"><br>
-            Start Date: <input type="date" name="start-date"><br>
-            Due Date: <input type="date" name="due-date"><br>
-            Priority: <select type="date" name="due-date">
-                <option value="0">Highest</option>
-                <option value="1">High</option>
-                <option value="2">Normal</option>
-                <option value="3">Low</option>
-                <option value="4">Lowest</option>
-                </select><br>
-            <button>Submit</button>
+            <label for="title">Name of task:</label>
+             <input type="text" name="title" id="title"><br>
+            <label for="description">Description:</label><br>
+             <textarea name="description" id="description" rows="10" cols="30"></textarea><br>
+            <label for="start-date">Start Date:</label>
+             <input type="date" name="start-date" id="start-date"><br>
+            <label for="due-date">Due Date:</label>
+             <input type="date" name="due-date" id="due-date"><br>
+            <label for="priority">Priority:</label> 
+                <select name="priority" id="priority">
+                    <option value="0">Highest</option>
+                    <option value="1">High</option>
+                    <option value="2">Normal</option>
+                    <option value="3">Low</option>
+                    <option value="4">Lowest</option>
+                </select>
+            <button type="button" id="task-submit-button" style="float: right">Submit</button>
         </form>
+    </div>
+    <div class="task-card">
+        weow.
     </div>
 <script src="main.js"></script>
 </body>

@@ -13,8 +13,8 @@ class Task {
         this._id = id;
         this._title = title;
         this._description = description;
-        this._dueDate = due_date;
-        this._startDate = start_date;
+        this._dueDate = new Date(due_date);
+        this._startDate = new Date(start_date);
         this._priority = priority;
     }
     /**
@@ -38,7 +38,6 @@ class Task {
     get priority() {
         return this._priority;
     }
-
     set title(title) {
         this._title = title;
     }
