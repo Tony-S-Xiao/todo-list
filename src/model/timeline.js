@@ -1,4 +1,4 @@
-import buckets from 'buckets-js';
+import {AvlTree} from 'datastructures-js';
 /**
  * A timeline singleton. 
  */
@@ -6,7 +6,7 @@ const timeline = (() => {
     /**
      * BST representing the timeline of tasks. Custom comparator for dates.
      */
-    let bst = new buckets.BSTree((first, second) => {
+    let bst = new AvlTree((first, second) => {
         if(first.date < second.date) return -1;
         if(first.date > second.date) return 1;
         return 0;

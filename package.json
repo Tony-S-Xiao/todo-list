@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "buckets-js": "^1.98.2",
+    "datastructures-js": "^9.0.0",
     "date-fns": "^2.16.1",
     "webpack": "^5.19.0"
   }
