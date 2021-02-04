@@ -32,9 +32,9 @@ html, body {
     border-color: grey;
     border-width: 1px;
     border-radius: 8px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 10px auto 10px auto;
     background-color: #C09F80;
+
 }
 .header{
     height: 60px;
